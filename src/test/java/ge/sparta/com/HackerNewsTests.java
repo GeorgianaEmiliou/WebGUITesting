@@ -94,6 +94,8 @@ public class HackerNewsTests {
     void checkThatYesterdaysDateDisplaysWhenClockOnThePastLink(){
         LocalDate yesterday = LocalDate.now().minusDays(1);
         driver.findElement(By.linkText("past")).click();
+        /*String checkDate = driver.findElement(By.className("pagetop")).getText();
+        boolean correctDate =*/
         //String date = driver.getTitle().substring(0,10);
         String date = driver.findElement(By.xpath("//*[@id=\"hnmain\"]/tbody/tr[1]/td/table/tbody/tr/td[2]/span/font")).getText();
         Assertions.assertEquals(yesterday.toString(), date);

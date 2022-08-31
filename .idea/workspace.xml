@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc071c2c-5681-4ac0-b29b-d8ff793ea93d" name="Changes" comment="">
+    <list default="true" id="fc071c2c-5681-4ac0-b29b-d8ff793ea93d" name="Changes" comment="Web tests added">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ge/sparta/com/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ge/sparta/com/BasicWebTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ge/sparta/com/HackerNewsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ge/sparta/com/HackerNewsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,21 +35,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ge.sparta.com.pom" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\georgiana\WebTesting\src\test\resources" />
       <recent name="C:\Users\georgiana\WebTesting" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ge.sparta.com.pom" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.HackerNewsTests">
-    <configuration name="HackerNewsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/information.feature" />
+      <option name="GLUE" value="ge.sparta.com.pom.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebTesting" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: information" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: navigation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/navigation.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebTesting" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: navigation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HackerNewsPOMTests.checkThatThePastPostsAre30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebTesting" />
       <extension name="coverage">
         <pattern>
@@ -62,83 +102,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ge.sparta.com" />
-      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.HackerNewsTests" />
+      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.HackerNewsPOMTests" />
+      <option name="METHOD_NAME" value="checkThatThePastPostsAre30" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HackerNewsPOMTests.checkThatWeCanGoToTheNewPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.sparta.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ge.sparta.com" />
+      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.HackerNewsPOMTests" />
+      <option name="METHOD_NAME" value="checkThatWeCanGoToTheNewPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.sparta.com.pom.cucumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ge.sparta.com.pom.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.pom.cucumber.TestRunner" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HackerNewsTests.checkThatLastMonthsDateAppears" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ge.sparta.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ge.sparta.com" />
-      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.HackerNewsTests" />
-      <option name="METHOD_NAME" value="checkThatLastMonthsDateAppears" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HackerNewsTests.checkThatYesterdaysDateDisplaysWhenClockOnThePastLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ge.sparta.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ge.sparta.com" />
-      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.HackerNewsTests" />
-      <option name="METHOD_NAME" value="checkThatYesterdaysDateDisplaysWhenClockOnThePastLink" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HackerNewsTests.checkWeOpenALinkInANewTab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ge.sparta.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ge.sparta.com" />
-      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.HackerNewsTests" />
-      <option name="METHOD_NAME" value="checkWeOpenALinkInANewTab" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HackerNewsTests.checkWhenTheLatestNewUploaded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ge.sparta.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ge.sparta.com" />
-      <option name="MAIN_CLASS_NAME" value="ge.sparta.com.HackerNewsTests" />
-      <option name="METHOD_NAME" value="checkWhenTheLatestNewUploaded" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HackerNewsTests" />
-        <item itemvalue="JUnit.HackerNewsTests.checkWhenTheLatestNewUploaded" />
-        <item itemvalue="JUnit.HackerNewsTests.checkThatLastMonthsDateAppears" />
-        <item itemvalue="JUnit.HackerNewsTests.checkThatYesterdaysDateDisplaysWhenClockOnThePastLink" />
-        <item itemvalue="JUnit.HackerNewsTests.checkWeOpenALinkInANewTab" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: information" />
+        <item itemvalue="Cucumber Java.Feature: navigation" />
+        <item itemvalue="JUnit.HackerNewsPOMTests.checkThatThePastPostsAre30" />
+        <item itemvalue="JUnit.HackerNewsPOMTests.checkThatWeCanGoToTheNewPage" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661850945102</updated>
     </task>
+    <task id="LOCAL-00001" summary="Web tests added">
+      <created>1661877406984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661877406985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Web tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web tests added" />
   </component>
 </project>
